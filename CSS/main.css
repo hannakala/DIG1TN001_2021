@@ -1,0 +1,199 @@
+* {        font-family:
+            'Quicksand', sans-serif;
+}
+
+
+body {
+    background-image: url("../img/tausta.jpg");
+    background-repeat: no-repeat;
+    background-color: #333;
+
+}
+
+main {
+    background: #fff; 
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-content:center;
+    flex: auto;
+}
+
+nav {
+    background: #9d0759;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 15px; 
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align:center;
+}
+
+
+#logo {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    text-decoration:none;
+}
+
+#logo a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+#logo a:hover {color:orange;}
+
+#right {
+    float:right;
+    width:30%;   overflow:hidden;   
+    text-align:center;
+    }
+
+.thumb {
+    max-width:100px;
+    }     
+
+
+
+@media screen and (max-width:399px) { 
+    
+    #right {
+        display:none;
+    }
+    
+    article {
+        width:68%;
+        float:left;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    #banner {
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/banner_small.png");
+        height:60px;
+    }
+    
+    #bottom {
+        text-align:center;
+        position:relative;
+        bottom:5px;
+    }
+
+    #right {    
+        visibility:hidden;
+        float:none;
+    }
+}
+
+@media screen and (min-width:400px) { 
+    
+    #banner {
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/banner.png");
+        height:200px;
+    }
+    #bottom {               
+        display:none;
+    }
+    
+    #right {    
+        visibility:visible;
+        width:30%;
+        float:right;
+    }
+    
+    article {
+        width:60%;
+        padding: 0px 10px 0px 20px;
+    }
+    
+
+}
+    
+#tervetuloa {
+    float:left;
+}
+
+center {
+    text-align:center;
+    margin:auto;
+}
+
+
+.pad {
+    padding: 20px 20px 20px 20px; 
+}
+
+
+p {
+    color: #000;
+    font-size:3vw;
+    padding: 0px 10px 0px 0px;
+    width:95%}
+
+
+h1 {
+    color: #000;
+    font-size: 5.9vw;
+    display:inline;
+    
+}
+
+h2 {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw;
+    text-align:center;
+}
+
+form {
+    text-align:left;
+    margin-left:10px;
+    
+}
+a {
+    color: #9d0759;
+    text-decoration:none;
+} 
+
+a:hover {
+    color: #fd8d49;   
+}
+
+
+.sivu {
+    width:80px;
+    height:auto;   
+}
+    
+   
+
+table {
+    font-size: 4vw;
+    text-align:left;
+    margin:auto;
+    width:90%;
+
+
+}
+
+th {
+    text-align:center;
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+    color: #9d0759;
+}
+
+.mainos {
+   font-size:2vw; 
+}
+
+
